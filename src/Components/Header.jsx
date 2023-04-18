@@ -36,7 +36,7 @@ const Header = ({ user }) => {
                                 <Link className='font-semibold ' to="/home">Home</Link>
                             </div>
                             <div className='flex gap-6 my-4'>
-                                <UserPlusIcon className="h-6 w-6 text-primary " />
+                               <UserPlusIcon   className="h-6 w-6 text-primary " />
 
                                 <Link to="/logIn"><h1 className='text-[16px]  font-bold'> Log in</h1> </Link>
                             </div>

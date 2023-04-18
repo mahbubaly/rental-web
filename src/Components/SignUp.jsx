@@ -27,7 +27,7 @@ const SignUp = () => {
                     <div className="card  w-full  bg-base-100">
                         <div className="card-body">
                             <div className="form-control">
-                                <label className="label flex justify-center my-4 ">
+                                <label className="label md:flex justify-center md:my-4 ">
                                     <span className="label-text text-center font-semibold text-primary text-xl">Create Your own account!!</span>
                                 </label>
                                 <label className="label">
@@ -82,8 +82,8 @@ const SignUp = () => {
 
 
                     <div>
-                        <h1 className='font-semibold hover:underline'>Already have an account? 
-                        <Link to="/logIn">  <span className='text-primary'>Log in</span> </Link></h1>
+                        
+                        <Link to="/logIn"> <h1 className='font-semibold hover:underline'>Already have an account?   <span className='text-primary'>Log in</span> </h1></Link>
                     </div>
 
                 </div>

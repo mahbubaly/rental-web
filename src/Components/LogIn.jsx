@@ -69,7 +69,7 @@ const LogIn = () => {
 
 
                     <div>
-                        <h1 className='font-semibold hover:underline'>Don’t have account? <Link to='/signUp'>  <span className='text-primary'>Sign up</span> </Link></h1>
+                         <Link to='/signUp'> <h1 className='font-semibold hover:underline'>Don’t have account? <span className='text-primary'>Sign up</span></h1> </Link>
                     </div>
 
                 </div>
