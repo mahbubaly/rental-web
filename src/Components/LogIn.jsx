@@ -20,7 +20,7 @@ const LogIn = () => {
             <div className=" hero  bg-white">
                 <div className="hero-content flex-col ">
                     <div className="text-center ">
-                        <h1 className="text-5xl font-bold my-7">Login now!</h1>
+                        <h1 className="text-5xl font-bold text-primary my-7">Login now!</h1>
 
 
 
