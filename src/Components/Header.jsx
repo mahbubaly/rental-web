@@ -64,7 +64,7 @@ const Header = ({ user }) => {
                 <Link to="/"><img className='w-[100px] h-[100px] hidden md:block' src={logo} alt="" /></Link>
 
                 <div className='flex justify-around gap-6 items-center'>
-                    <div className='flex gap-2 md:justify-center'>
+                    <div className='lg:flex gap-2 hidden md:block md:justify-center'>
                         <UserPlusIcon className="h-6 w-6 text-primary " />
 
                         <Link to="/logIn"><h1 className='text-[16px]  font-bold'> Log in</h1> </Link>
