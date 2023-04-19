@@ -13,7 +13,7 @@ const Section_2 = ({ popularArea }) => {
             </div>
 
 
-            <div className='grid grid-cols-4 text-center'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2  text-center'>
                 {
                     popularArea.map(area => <Area
                         key={area.id}

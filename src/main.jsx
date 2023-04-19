@@ -8,7 +8,7 @@ import {
 } from "react-router-dom";
 import Main from './Components/Main';
 import ErrorPage from './Components/Error';
-import Home from './Components/Home';
+
 import LogIn from './Components/LogIn';
 import SignUp from './Components/SignUp';
 import Section from './Components/Section';
@@ -22,12 +22,13 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <Main />
+        element: <Section />,
+
       },
       {
         path: "/",
         element: <Section />,
-        loader: () =>fetch('popular_area.json')
+        loader: () => fetch('popular_area.json')
       },
 
       {
