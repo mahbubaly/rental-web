@@ -1,22 +1,95 @@
-import React from 'react';
-import { UserPlusIcon, MapPinIcon } from '@heroicons/react/24/solid'
+import React, { useState } from 'react';
+import { UserPlusIcon, MapPinIcon, ChevronDownIcon, ChevronUpIcon,AdjustmentsHorizontalIcon } from '@heroicons/react/24/solid'
 
 const Search = () => {
+    const [showOptions, setShowOptions] = useState(false);
+
+
     return (
-        <div>
-            <div className='bg-white py-4'>
+        <div className=''>
+            <div className='bg-white py-4 '>
                 <div className='flex justify-center items-center gap-3 py-4'>
                     <MapPinIcon className="h-6 w-6 text-primary " />
                     <h1 className='font-semibold text-2xl'>All Location in Sylhet</h1>
                 </div>
-                <div className=" form-control  my-3">
-                    <div className="input-group">
-                        <input type="text" placeholder="What are you looking for?" className="input w-[50%]  ml-24 lg:ml-72" />
-                        <button className="btn btn-primary ">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                        </button>
+
+
+
+                <div className='flex px-12 justify-around my-4'>
+
+
+
+
+                    {/* Apartment */}
+
+                    <div className="relative">
+                        <input type="text" className="px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Apartment" />
+                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer" onClick={() => setShowOptions(!showOptions)}>
+                            {
+                                showOptions === true ? <ChevronUpIcon className="h-5 w-5 text-primary" /> : <ChevronDownIcon className="h-5 w-5 text-primary" />
+                            }
+
+
+
+                        </div>
+                        {showOptions && (
+                            <div className="absolute z-10 mt-1 py-1 w-full bg-white rounded-md shadow-lg">
+                                <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white w-full text-left">
+                                    Single room
+                                </button>
+                                <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white w-full text-left">
+                                    Double Room
+                                </button>
+                                <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white w-full text-left">
+                                    Ac Room
+                                </button>
+                                <button className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white w-full text-left">
+                                    Non Ac Room
+                                </button>
+                            </div>
+                        )}
                     </div>
+
+
+
+
+
+
+                    <div className="flex items-center justify-center">
+                        <label htmlFor="location" className="sr-only">
+                            Location
+                        </label>
+                        <div className="relative">
+                            <input
+                                type="text"
+                                id="location"
+                                name="location"
+                                placeholder="Enter location"
+                                className="bg-gray-100 border border-gray-400 px-4 py-2 pl-10 rounded-lg focus:outline-none focus:bg-white focus:border-blue-500"
+                            />
+                            <div className="absolute inset-y-0 left-0 flex items-center pl-3">
+                                <MapPinIcon className="w-6 h-6 text-primary" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className='flex justify-center items-center gap-3'>
+                        <AdjustmentsHorizontalIcon className="w-6 h-6 text-primary" />
+                        <h1 className='text-xl font-semibold'>More Filters</h1>
+
+                    </div>
+
+
+
+                    <div>
+                        <button className='btn btn-primary'>Search</button>
+                    </div>
+
+
+
+
                 </div>
+
 
 
             </div>
