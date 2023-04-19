@@ -17,15 +17,15 @@ const SignUp = () => {
         <>
             <div className=" hero  bg-white">
                 <div className="hero-content flex-col ">
-                    <div className="text-center ">
-                        <h1 className="text-5xl font-bold text-primary my-7">Welcome again!!</h1>
+                    <div className="text-center scroll-container">
+                        <h1 className="text-5xl font-bold scroll-content  text-primary my-7">Welcome again!!</h1>
 
 
 
 
                     </div>
-                    <div className="card  w-full  bg-base-100">
-                        <div className="card-body">
+                    <div className="card   w-full  scroll-sign-container bg-base-100">
+                        <div className="card-body  scroll-sign-content ">
                             <div className="form-control">
                                 <label className="label md:flex justify-center md:my-4 ">
                                     <span className="label-text text-center font-semibold text-primary text-xl">Create Your own account!!</span>
@@ -82,7 +82,7 @@ const SignUp = () => {
 
 
                     <div>
-                        
+
                         <Link to="/logIn"> <h1 className='font-semibold hover:underline'>Already have an account?   <span className='text-primary'>Log in</span> </h1></Link>
                     </div>
 

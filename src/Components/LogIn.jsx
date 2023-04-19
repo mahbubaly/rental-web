@@ -7,10 +7,17 @@ import facebook from '../Images/Facebook.png'
 const LogIn = () => {
 
     const [user, setUser] = useState('');
+    const [email, setEmail] = useState('');
 
-    const handlerLog = () => {
-        const LoggedIn = 123;
-        setUser(LoggedIn);
+    const handlerLog = event => {
+        event.preventDefault();
+        const form = event.target;
+        const email = form.email.value;
+
+        const password = form.password.value;
+        setEmail(email);
+
+
 
 
     }
@@ -19,36 +26,38 @@ const LogIn = () => {
         <>
             <div className=" hero  bg-white">
                 <div className="hero-content flex-col ">
-                    <div className="text-center ">
-                        <h1 className="text-5xl font-bold text-primary my-7">Hello Login now!</h1>
+                    <div className="text-center scroll-container">
+                        <h1 className="text-5xl scroll-content font-bold text-primary my-7">Hello Login now!</h1>
 
 
 
 
                     </div>
                     <div className="card  w-full  bg-base-100">
-                        <div className="card-body">
+                        <form onSubmit={handlerLog} className="card-body">
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Email</span>
                                 </label>
-                                <input type="text" name='email' placeholder="Email" className="input input-bordered" />
+                                <input type="text" name='email' placeholder="Email" className="input input-bordered" required />
                             </div>
                             <div className="form-control">
                                 <label className="label">
                                     <span className="label-text">Password</span>
                                 </label>
-                                <input type="text" placeholder="password" className="input input-bordered" />
+                                <input type="password" required name='password' placeholder="password" className="input input-bordered" />
                                 <label className="label">
 
                                     <Link to="/forgotPass" className='text-primary mt-3 hover:underline'>Forgot password? </Link>
                                 </label>
                             </div>
                             <div className="form-control mt-6">
-                                <button onClick={handlerLog} user={user} className="btn btn-primary">Log in</button>
+
+                                <button className="btn btn-primary">Log in</button>
+
                             </div>
 
-                        </div>
+                        </form>
                         <div className='flex p-3 gap-2'>
 
 
@@ -69,7 +78,7 @@ const LogIn = () => {
 
 
                     <div>
-                         <Link to='/signUp'> <h1 className='font-semibold hover:underline'>Don’t have account? <span className='text-primary'>Sign up</span></h1> </Link>
+                        <Link to='/signUp'> <h1 className='font-semibold hover:underline'>Don’t have account? <span className='text-primary'>Sign up</span></h1> </Link>
                     </div>
 
                 </div>

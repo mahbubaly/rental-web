@@ -11,6 +11,8 @@ import ErrorPage from './Components/Error';
 import Home from './Components/Home';
 import LogIn from './Components/LogIn';
 import SignUp from './Components/SignUp';
+import Section from './Components/Section';
+import Section_2 from './Components/Section_2';
 
 const router = createBrowserRouter([
   {
@@ -20,8 +22,14 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/home",
-        element: <Home />
+        element: <Main />
       },
+      {
+        path: "/",
+        element: <Section />,
+        loader: () =>fetch('popular_area.json')
+      },
+
       {
         path: "/logIn",
         element: <LogIn />
