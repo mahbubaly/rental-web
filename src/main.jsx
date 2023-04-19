@@ -13,6 +13,7 @@ import LogIn from './Components/LogIn';
 import SignUp from './Components/SignUp';
 import Section from './Components/Section';
 import Section_2 from './Components/Section_2';
+import Search from './Components/Search';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,10 @@ const router = createBrowserRouter([
       {
         path: "/signUp",
         element: <SignUp />
+      },
+      {
+        path: "/search",
+        element: <Search/>
       }
     ]
   },

@@ -9,7 +9,7 @@ const Section_2 = ({ popularArea }) => {
             <div className='flex justify-between my-5'>
                 <h1 className='font-bold ml-4 text-3xl text-primary hover:text-primary hover:underline hover:translate-x-2 transition duration-500 '>Popular area</h1>
 
-                <p className='text-primary   hover:text-primary hover:underline hover:-translate-x-2 transition duration-500 font-semibold mr-4'> See all area</p>
+                <Link to="/search" className='text-primary   hover:text-primary hover:underline hover:-translate-x-2 transition duration-500 font-semibold mr-4'> See all area</Link>
             </div>
 
 
