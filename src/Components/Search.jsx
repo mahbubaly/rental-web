@@ -15,12 +15,12 @@ const Search = () => {
 
 
 
-                <div className='flex px-12 justify-around my-4'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 px-12 justify-around my-4'>
 
 
 
 
-                    {/* Apartment */}
+                    {/* Apartment 1 */}
 
                     <div className="relative">
                         <input type="text" className="px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Apartment" />
