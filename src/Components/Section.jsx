@@ -1,20 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { HomeIcon } from '@heroicons/react/24/solid'
-
 import bed from '../Images/bed-icon.png'
 import house from '../Images/house-icon.png'
-
 import shop from '../Images/shop-icon.png'
 import Office from '../Images/Office.jpg'
 import Section_2 from './Section_2';
 import { useLoaderData } from 'react-router-dom';
 import { UserPlusIcon, MapPinIcon } from '@heroicons/react/24/solid'
-
-
-
-
 const Section = () => {
-    const popularArea = useLoaderData();
+    const [popularArea, setPopularArea] = useState([]);
+
+    useEffect(() => {
+        fetch('popular_area.json')
+            .then(res => res.json())
+            .then(data => setPopularArea(data));
+
+    }, [])
 
     return (
         <>
@@ -23,12 +24,16 @@ const Section = () => {
                     <MapPinIcon className="h-6 w-6 text-primary " />
                     <h1 className='font-semibold text-2xl'>All Location in Sylhet</h1>
                 </div>
+
+
                 <div className=" form-control  my-3">
-                    <div className="input-group">
-                        <input type="text" placeholder="What are you looking for?" className="input w-[50%]  ml-20 md:ml-24 lg:ml-72" />
-                        <button className="btn btn-primary ">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
-                        </button>
+                    <div className="flex">
+                        <input type="text" placeholder="What are you looking for?" className="input rounded-s-lg -mt-3  w-[50%]  ml-20 md:ml-24 lg:ml-72" />
+                        <div className='-mt-[12px]'>
+                            <button className=" p-3  btn-primary rounded-r-lg   ">
+                                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6  " fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                            </button>
+                        </div>
                     </div>
                 </div>
 

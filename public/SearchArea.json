@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 1200,
+    "rooms": 2,
+    "bathrooms": 2,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 2,
+    "location": "Zindabazar, Sylhet",
+    "title": "Charming Victorian house in Noe Valley",
+    "space_feet": 1800,
+    "rooms": 3,
+    "bathrooms": 2,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 3,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 900,
+    "rooms": 1,
+    "bathrooms": 1,
+    "private_bathroom": true,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 4,
+    "location": "Zindabazar, Sylhet",
+    "title": "Spacious loft in trendy West Loop neighborhood",
+    "space_feet": 1500,
+    "rooms": 2,
+    "bathrooms": 2,
+    "private_bathroom": true,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 5,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 500,
+    "rooms": 0,
+    "bathrooms": 1,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 6,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 1000,
+    "rooms": 1,
+    "bathrooms": 1,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 7,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 2000,
+    "rooms": 3,
+    "bathrooms": 3,
+    "private_bathroom": true,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 8,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 1800,
+    "rooms": 2,
+    "bathrooms": 2,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 9,
+    "location": "Zindabazar, Sylhet",
+    "title": "Spacious mountain-view apartment in Capitol Hill",
+    "space_feet": 1100,
+    "rooms": 1,
+    "bathrooms": 1,
+    "private_bathroom": true,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  },
+  {
+    "id": 10,
+    "location": "Zindabazar, Sylhet",
+    "title": "Exclusive flat in prime location!",
+    "space_feet": 800,
+    "rooms": 1,
+    "bathrooms": 1,
+    "private_bathroom": false,
+    "rent": "20,000/month",
+    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+  }
+]

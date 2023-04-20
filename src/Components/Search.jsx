@@ -1,8 +1,13 @@
 import React, { useState } from 'react';
-import { UserPlusIcon, MapPinIcon, ChevronDownIcon, ChevronUpIcon,AdjustmentsHorizontalIcon } from '@heroicons/react/24/solid'
+import { UserPlusIcon, MapPinIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, AdjustmentsHorizontalIcon } from '@heroicons/react/24/solid'
+import { useLoaderData } from 'react-router-dom';
+import AreaDetails from './AreaDetails';
+
 
 const Search = () => {
     const [showOptions, setShowOptions] = useState(false);
+
+    const searchAreas = useLoaderData()
 
 
     return (
@@ -15,22 +20,23 @@ const Search = () => {
 
 
 
-                <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 px-12 justify-around my-4'>
-
-
-
-
-                    {/* Apartment 1 */}
-
+                <div className='flex flex-col items-center px-4 md:px-12 justify-around my-4 md:flex-row md:items-center md:justify-between'>
+                    {/* Room type */}
                     <div className="relative">
-                        <input type="text" className="px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500" placeholder="Apartment" />
-                        <div className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer" onClick={() => setShowOptions(!showOptions)}>
-                            {
-                                showOptions === true ? <ChevronUpIcon className="h-5 w-5 text-primary" /> : <ChevronDownIcon className="h-5 w-5 text-primary" />
-                            }
-
-
-
+                        <input
+                            type="text"
+                            className="px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"
+                            placeholder="Select room type"
+                        />
+                        <div
+                            className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer"
+                            onClick={() => setShowOptions(!showOptions)}
+                        >
+                            {showOptions === true ? (
+                                <ChevronUpIcon className="h-5 w-5 text-primary" />
+                            ) : (
+                                <ChevronDownIcon className="h-5 w-5 text-primary" />
+                            )}
                         </div>
                         {showOptions && (
                             <div className="absolute z-10 mt-1 py-1 w-full bg-white rounded-md shadow-lg">
@@ -50,12 +56,8 @@ const Search = () => {
                         )}
                     </div>
 
-
-
-
-
-
-                    <div className="flex items-center justify-center">
+                    {/* Location */}
+                    <div className="flex items-center justify-center mt-4 md:mt-0 md:ml-6">
                         <label htmlFor="location" className="sr-only">
                             Location
                         </label>
@@ -73,26 +75,55 @@ const Search = () => {
                         </div>
                     </div>
 
-                    <div className='flex justify-center items-center gap-3'>
+                    {/* More filters */}
+                    <div className="flex justify-center gap-3 items-center mt-4 md:mt-0 md:ml-6">
                         <AdjustmentsHorizontalIcon className="w-6 h-6 text-primary" />
-                        <h1 className='text-xl font-semibold'>More Filters</h1>
-
+                        <h1 className="text-xl font-semibold">More Filters</h1>
                     </div>
 
-
-
-                    <div>
-                        <button className='btn btn-primary'>Search</button>
+                    {/* Search button */}
+                    <div className="mt-4 md:mt-0 md:ml-6">
+                        <button className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                            Search
+                        </button>
                     </div>
+                </div>
 
 
+                <div className='md:p-12 p-4'>
+                    {
+                        searchAreas.map(searchArea => <AreaDetails
+                            key={searchArea.id}
+                            searchArea={searchArea}
 
 
+                        />
+
+                        )
+                    }
+
+                    <div className='flex justify-center items-center gap-4 mt-7 font-bold'>
+
+                        < ChevronLeftIcon className="h-6 w-6 text-primary " />
+
+                        <h1 className='rounded-lg p-3 hover:text-primary'>1</h1>
+                        <h1 className='rounded-lg p-3 hover:text-primary'>2</h1>
+                        <h1 className='rounded-lg p-3 hover:text-primary'>3</h1>
+                        <h1 className='rounded-lg p-3 hover:text-primary'>4</h1>
+                        <h1 className='rounded-lg p-3 hover:text-primary'>5</h1>
+                        <ChevronRightIcon className="h-6 w-6 text-primary " /> 
+
+                    </div>
                 </div>
 
 
 
             </div>
+
+
+
+
+
 
         </div>
     );
