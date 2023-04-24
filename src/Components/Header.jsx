@@ -4,6 +4,7 @@ import logo from '../Images/logo.jpg'
 import { UserPlusIcon, MapPinIcon, XMarkIcon, Bars3Icon, QuestionMarkCircleIcon, EllipsisHorizontalCircleIcon, HomeIcon } from '@heroicons/react/24/solid'
 import '../Components/Css/Style.css'
 import Section from './Section';
+import ActiveLink from './ActiveLink';
 
 const Header = () => {
     const [open, setOpen] = useState(false);
@@ -20,9 +21,10 @@ const Header = () => {
                     <span className={`bg-${open ? 'black' : 'white'} w-96 duration-1000`}>
                         {open === true ? (
                             <div className='flex gap-14 duration-1000  p-2'>
-                                <Link to='/'>
+                                
+                                <ActiveLink to='/'>
                                     <img className='w-[40px] h-[30px]' src={logo} alt='' />
-                                </Link>
+                                </ActiveLink>
                                 <XMarkIcon className='h-8 w-8 text-primary' />
                             </div>
                         ) : (
@@ -34,34 +36,34 @@ const Header = () => {
                         >
                             <div className='flex gap-6 items-center mt-4'>
                                 <HomeIcon className='h-6 w-6 text-primary' />
-                                <Link className='font-semibold hover-effect' to='/'>
+                                <ActiveLink className='font-semibold hover-effect' to='/'>
                                     Home
-                                </Link>
+                                </ActiveLink>
                             </div>
                             <div className='flex gap-6 my-4'>
                                 <UserPlusIcon className='h-6 w-6 text-primary' />
-                                <Link className='hover-effect' to='/logIn'>
+                                <ActiveLink className='hover-effect' to='/logIn'>
                                     <h1 className='text-[16px] hover-effect font-bold'> Log in</h1>{' '}
-                                </Link>
+                                </ActiveLink>
                             </div>
                             <div className='flex gap-6 '>
                                 <UserPlusIcon className='h-6 w-6 text-primary' />
-                                <Link className='font-semibold hover-effect' to='/home'>
+                                <ActiveLink className='font-semibold hover-effect' to='/home'>
                                     Stay safe
-                                </Link>
+                                </ActiveLink>
                             </div>
                             <div className='flex gap-6 font-semibold'>
                                 <QuestionMarkCircleIcon className='h-6 w-6 text-primary' />
-                                <Link className='hover-effect' to='/home'>
+                                <ActiveLink className='hover-effect' to='/faq'>
                                     FAQ
-                                </Link>
+                                </ActiveLink>
                             </div>
                             <hr />
                             <div className='flex gap-6 font-semibold '>
                                 <EllipsisHorizontalCircleIcon className='h-6 w-6 text-primary' />
-                                <Link className='hover-effect' to='/home'>
+                                <ActiveLink className='hover-effect' to='/more'>
                                     More
-                                </Link>
+                                </ActiveLink>
                             </div>
                         </div>
                     </span>
@@ -74,7 +76,7 @@ const Header = () => {
                     <div className='lg:flex gap-2 hidden md:block md:justify-center'>
                         <UserPlusIcon className="h-6 w-6 text-primary " />
 
-                        <Link to="/logIn"><h1 className='text-[16px] hover-effect  font-bold'> Log in</h1> </Link>
+                        <ActiveLink to="/logIn"><h1 className='text-[16px] hover-effect  font-bold'> Log in</h1> </ActiveLink>
                     </div>
                     <button className='btn btn-primary du text-white '>Post Your ad</button>
 

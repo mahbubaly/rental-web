@@ -1,8 +1,15 @@
-import { useRouteError } from "react-router-dom";
+import { useNavigate, useRouteError } from "react-router-dom";
 
 export default function ErrorPage() {
-  const {status , error} = useRouteError();
-  console.error(error);
+  const { status, error } = useRouteError();
+  const navigate = useNavigate;
+
+  const handlerNavigate = () => {
+    navigate(-1);
+
+  }
+
+
 
   return (
     <div id="error-page " className="text-center lg:top-[40%] lg:absolute lg:left-[40%]">
@@ -11,6 +18,7 @@ export default function ErrorPage() {
       <p>
         <i>{error.statusText || error.message}</i> <br />
         <i>{status}</i>
+        <button className="btn btn-primary block" onClick={handlerNavigate}>Go back</button>
       </p>
     </div>
   );

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Area = ({ area }) => {
-    console.log(area);
+    
     return (
         <div>
             <div className='my-2 '>

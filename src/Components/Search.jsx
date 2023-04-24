@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { UserPlusIcon, MapPinIcon, ChevronDownIcon, ChevronLeftIcon, ChevronRightIcon, ChevronUpIcon, AdjustmentsHorizontalIcon } from '@heroicons/react/24/solid'
-import { useLoaderData } from 'react-router-dom';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 import AreaDetails from './AreaDetails';
 
 
@@ -9,9 +9,16 @@ const Search = () => {
 
     const searchAreas = useLoaderData()
 
+    const navigate = useNavigate();
+
+    const handlerNavigate = () => {
+        navigate(-1);
+
+    }
+
 
     return (
-        <div className=''>
+        < >
             <div className='bg-white py-4 '>
                 <div className='flex justify-center items-center gap-3 py-4'>
                     <MapPinIcon className="h-6 w-6 text-primary " />
@@ -83,7 +90,7 @@ const Search = () => {
 
                     {/* Search button */}
                     <div className="mt-4 md:mt-0 md:ml-6">
-                        <button className="bg-primary hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                        <button className="bg-primary  text-white font-bold py-2 px-4 rounded">
                             Search
                         </button>
                     </div>
@@ -111,9 +118,10 @@ const Search = () => {
                         <h1 className='rounded-lg p-3 hover:text-primary'>3</h1>
                         <h1 className='rounded-lg p-3 hover:text-primary'>4</h1>
                         <h1 className='rounded-lg p-3 hover:text-primary'>5</h1>
-                        <ChevronRightIcon className="h-6 w-6 text-primary " /> 
+                        <ChevronRightIcon className="h-6 w-6 text-primary " />
 
                     </div>
+                    <button className="btn btn-primary mx-auto flex" onClick={handlerNavigate}>Go back</button>
                 </div>
 
 
@@ -125,7 +133,7 @@ const Search = () => {
 
 
 
-        </div>
+        </>
     );
 };
 

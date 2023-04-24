@@ -14,6 +14,7 @@ import SignUp from './Components/SignUp';
 import Section from './Components/Section';
 import Section_2 from './Components/Section_2';
 import Search from './Components/Search';
+import MoreDetails from './Components/MoreDetails';
 
 const router = createBrowserRouter([
   {
@@ -44,6 +45,13 @@ const router = createBrowserRouter([
         path: "/search",
         element: <Search />,
         loader: () => fetch('SearchArea.json')
+      }
+      ,
+      {
+        path: "details/:Id",
+        element: <MoreDetails />,
+        loader: ({params}) => fetch(`SearchArea.json/${params.Id}`) 
+
       }
     ]
   },
