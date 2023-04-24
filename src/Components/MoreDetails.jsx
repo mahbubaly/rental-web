@@ -25,9 +25,9 @@ const MoreDetails = () => {
 
 
     return (
-        <div>
+        <div className='p-4'>
 
-            <button className='btn btn-primary' onClick={handlerNav}>Go back</button>
+            <button className='btn btn-primary ' onClick={handlerNav}>Go back</button>
         </div>
     );
 };

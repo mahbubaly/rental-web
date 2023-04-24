@@ -56,7 +56,7 @@ const Section = () => {
                 </div>
                 <div className='grid md:grid-cols-2 lg:grid-col-3 xl:grid-cols-3   grid-cols-2 m-0'>
 
-                    <div className='p-3 mb-5 rounded shadow-lg mx-auto flex flex-col hover:shadow-xl ease-in-out duration-1000 hover:text-white font-semibold hover:bg-primary justify-center items-center'>
+                    <div className='p-3 mb-5 rounded gap-4 md:gap-0 shadow-lg mx-auto flex flex-col hover:shadow-xl ease-in-out duration-1000 hover:text-white font-semibold hover:bg-primary justify-center items-center'>
 
                         <img className='h-full  w-[40%] ' src={house} alt="" />
                         <h1>House</h1>
