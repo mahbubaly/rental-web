@@ -16,14 +16,14 @@ const Header = () => {
     return (
         <>
 
-            <div className='flex justify-between  bg-white p-3 items-center'>
+            <div className='flex justify-between  bg-white  items-center'>
                 <div onClick={() => setOpen(!open)} className='md:hidden'>
                     <span className={`bg-${open ? 'black' : 'white'} w-96 duration-1000`}>
                         {open === true ? (
                             <div className='flex gap-14 duration-1000  p-2'>
                                 
                                 <ActiveLink to='/'>
-                                    <img className='w-[40px] h-[30px]' src={logo} alt='' />
+                                    <img className='w-[40px] 2xl:w-[80px] h-[30px] 2xl:h-[60]' src={logo} alt='' />
                                 </ActiveLink>
                                 <XMarkIcon className='h-8 w-8 text-primary' />
                             </div>
@@ -40,7 +40,7 @@ const Header = () => {
                                     Home
                                 </ActiveLink>
                             </div>
-                            <div className='flex gap-6 my-4'>
+                            <div className='flex justify-center items-center gap-6 my-4'>
                                 <UserPlusIcon className='h-6 w-6 text-primary' />
                                 <ActiveLink className='hover-effect' to='/logIn'>
                                     <h1 className='text-[16px] hover-effect font-bold'> Log in</h1>{' '}
@@ -74,9 +74,9 @@ const Header = () => {
 
                 <div className='flex justify-around gap-6 items-center'>
                     <div className='lg:flex gap-2 hidden md:block md:justify-center'>
-                        <UserPlusIcon className="h-6 w-6 text-primary " />
+                        <UserPlusIcon className="lg:h-6 2xl:h-10 w-6 2xl:w-10 text-primary " />
 
-                        <ActiveLink to="/logIn"><h1 className='text-[16px] hover-effect  font-bold'> Log in</h1> </ActiveLink>
+                        <ActiveLink to="/logIn"><h1 className='text-[16px] hover-effect 2xl:text-3xl  font-bold'> Log in</h1> </ActiveLink>
                     </div>
                     <button className='btn btn-primary du text-white '>Post Your ad</button>
 

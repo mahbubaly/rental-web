@@ -1,10 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 
-const MoreDetails = ({ id }) => {
+import axios from 'axios'
+
+const MoreDetails = () => {
+
 
     const detailsId = useParams();
     console.log(detailsId);
+
+
+    useEffect(() =>{
+        axios.get('SearchArea.json')
+        .then(data => console.log(data));
+    }, [])
 
     const navigate = useNavigate();
 

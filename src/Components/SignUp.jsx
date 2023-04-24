@@ -15,41 +15,41 @@ const SignUp = () => {
     }
     return (
         <>
-            <div className=" hero  bg-white">
-                <div className="hero-content flex-col ">
-                    <div className="text-center scroll-container">
-                        <h1 className="text-5xl font-bold scroll-content  text-primary my-7">Welcome again!!</h1>
+            <div className="  flex justify-center items-center  bg-white">
+                <div className="hero-content flex-col lg:w-[40%]">
+                    <div className="text-center scroll-container ">
+                        <h1 className="text-5xl font-bold  scroll-content  text-primary my-7">Welcome again!!</h1>
 
 
 
 
                     </div>
-                    <div className="card   w-full  scroll-sign-container bg-base-100">
+                    <div className="card   w-full scroll-sign-container bg-base-100">
                         <div className="card-body  scroll-sign-content ">
                             <div className="form-control">
                                 <label className="label md:flex justify-center md:my-4 ">
                                     <span className="label-text text-center font-semibold text-primary text-xl">Create Your own account!!</span>
                                 </label>
                                 <label className="label">
-                                    <span className="label-text">Enter first name</span>
+                                    <span className="label-text text-[16px] font-semibold">Enter first name</span>
                                 </label>
                                 <input type="text" name='email' placeholder="Name" className="input input-bordered" />
                                 <label className="label">
-                                    <span className="label-text">Enter last name</span>
+                                    <span className="label-text text text-[16px] font-semibold">Enter last name</span>
                                 </label>
                                 <input type="text" name='email' placeholder="Name" className="input input-bordered" />
                                 <label className="label">
-                                    <span className="label-text">Email</span>
+                                    <span className="label-text text text-[16px] font-semibold">Email</span>
                                 </label>
                                 <input type="text" name='email' placeholder="Email" className="input input-bordered" />
                             </div>
                             <div className="form-control">
                                 <label className="label">
-                                    <span className="label-text">Password</span>
+                                    <span className="label-text text text-[16px] font-semibold">Password</span>
                                 </label>
                                 <input type="text" placeholder="password" className="input input-bordered" />
                                 <label className="label">
-                                    <span className="label-text">Confirmed password</span>
+                                    <span className="label-text text text-[16px] font-semibold">Confirm password</span>
                                 </label>
                                 <input type="text" placeholder="password" className="input input-bordered" />
                                 <label className="label">
@@ -62,16 +62,16 @@ const SignUp = () => {
                             </div>
 
                         </div>
-                        <div className='flex p-3 gap-2'>
+                        <div className='flex p-3 gap-2 2xl:justify-center'>
 
 
-                            <Link className='flex gap-2 p-3  rounded-lg bg-slate-50 text-center ' to='/google'>
+                            <Link className='flex p-2 justify-center items-center  rounded-lg bg-slate-50 text-center ' to='/google'>
                                 <img className='w-[40px] h-[30px]' src={googleLogo} alt="" />
                                 <h1>Log in with Google</h1>
 
 
                             </Link>
-                            <Link className='flex gap-2 p-3  rounded-lg bg-slate-50 text-center ' to='/google'>
+                            <Link className='flex  p-2 justify-center items-center rounded-lg bg-slate-50 text-center ' to='/facebook'>
                                 <img className='w-[40px] h-[30px]' src={facebook} alt="" />
                                 <h1>Log in with Facebook</h1>
 
