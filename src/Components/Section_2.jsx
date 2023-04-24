@@ -25,6 +25,23 @@ const Section_2 = ({ popularArea }) => {
 
 
 
+            <div className='flex justify-center items-center mt-5 xl:mt-11 2xl:mt-14'>
+                <div className="stats hover:shadow-2xl  shadow">
+
+                    <div className="stat">
+                        <div className="stat-title">Total Sylhet District</div>
+                        <div className="stat-value">3,452.07 km2</div>
+                        <div className="stat-desc mt-2">Sylhet District ; Established, 1782</div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            
+
+
+
 
 
 
