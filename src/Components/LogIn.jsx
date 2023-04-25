@@ -22,46 +22,82 @@ const LogIn = () => {
     return (
         <>
 
-            <div className='flex justify-center mt-7'>
-                <div className="mockup-phone  border-primary">
-                    <div className="camera"></div>
-                    <div className="display">
-                        <div className="artboard artboard-demo phone-1 text-primary font-xl">Loading... </div>
-                    </div>
-                </div>
-            </div>
 
 
-            <div className=''>
-                <div className="hero min-h-screen bg-base-200">
-                    <div className="hero-content flex-col lg:flex-row-reverse">
-                        <div className="text-center lg:text-left">
-                            <h1 className="text-5xl font-bold">Login now!</h1>
-                            <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        </div>
-                        <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                            <div className="card-body">
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Email</span>
-                                    </label>
-                                    <input type="text" placeholder="email" className="input input-bordered" />
-                                </div>
-                                <div className="form-control">
-                                    <label className="label">
-                                        <span className="label-text">Password</span>
-                                    </label>
-                                    <input type="text" placeholder="password" className="input input-bordered" />
-                                    <label className="label">
-                                        <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                                    </label>
-                                </div>
-                                <div className="form-control mt-6">
-                                    <button className="btn btn-primary">Login</button>
-                                </div>
+
+
+
+
+            <div className="   ">
+                <div className="lg:flex my-7 justify-center items-center gap-16">
+                    <div className="text-center lg:text-right ">
+                        <div className="mockup-phone hover:shadow-2xl  border-primary">
+                            <div className="camera"></div>
+                            <div className="display">
+                                <div className="artboard artboard-demo phone-1 text-primary font-xl">Loading... </div>
                             </div>
                         </div>
                     </div>
+
+
+                    <div className='p-3 md:p-5 lg:p-0 '> 
+
+
+                        <div className="text-center scroll-container ">
+                            <h1 className="text-5xl font-bold  scroll-content  text-primary my-7">Log in now!!</h1>
+                        </div>
+
+
+                        <div className="card bg-white w-full hover:shadow-2xl  ">
+                            <form onSubmit={handlerLog} className="card-body">
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text text text-[16px] font-semibold">Email</span>
+                                    </label>
+                                    <input type="text" name='email' placeholder="Email" className="input input-bordered" required />
+                                </div>
+                                <div className="form-control">
+                                    <label className="label">
+                                        <span className="label-text text text-[16px] font-semibold">Password</span>
+                                    </label>
+                                    <input type="password" required name='password' placeholder="password" className="input input-bordered" />
+                                    <label className="label">
+
+                                        <Link to="/forgotPass" className='text-primary mt-3 hover:underline'>Forgot password? </Link>
+                                    </label>
+                                </div>
+                                <div className="form-control ">
+
+
+                                    <button onClick={handlerLog} className="btn btn-primary text-[18px] text-white">
+                                        Log in</button>
+
+
+                                </div>
+
+                            </form>
+                            <div className='lg:flex p-3 gap-2 justify-center'>
+
+
+                                <Link className='flex p-2 justify-center items-center  rounded-lg bg-slate-50 text-center ' to='/google'>
+                                    <img className='w-[40px] h-[30px]' src={googleLogo} alt="" />
+                                    <h1>Log in with Google</h1>
+
+
+                                </Link>
+                                <Link className='flex mt-4 lg:mt-0 p-2 justify-center items-center rounded-lg bg-slate-50 text-center ' to='/facebook'>
+                                    <img className='w-[40px] h-[30px]' src={facebook} alt="" />
+                                    <h1>Log in with Facebook</h1>
+
+
+                                </Link>
+                            </div>
+                            <div className='mx-auto my-3'>
+                                <Link to='/signUp'> <h1 className='font-semibold  hover:underline'>Don’t have account? <span className='text-primary'>Sign up</span></h1> </Link>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </>
