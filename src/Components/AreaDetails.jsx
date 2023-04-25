@@ -11,12 +11,12 @@ const AreaDetails = ({ searchArea }) => {
                 <div className='md:flex items-center  gap-5'>
                     <img className='md:w-[100px] md:h-[100px] h-[200px] w-[200px] mx-auto  rounded-lg md:flex md:items-center' src={image} alt="" />
                     <div className='md:my-0 my-4'>
-                        <h1 className='font-bold text-2xl'>{title}</h1>
+                        <h1 className='font-bold text-[20px]'>{title}</h1>
                         <h2 className='my-3 '> <span className='font-semibold text-xl'>Location: </span>{location}</h2>
                         <div className='flex gap-5 my-4'>
-                            <p><span className='font-semibold text-xl'>space: {space_feet}</span></p>
-                            <p><span className='font-semibold text-xl'>Room: {rooms}</span></p>
-                            <p><span className='font-semibold text-xl'>Bathroom: {bathrooms}</span></p>
+                            <p><span className='font-semibold text-[16px]'>space: {space_feet}</span></p>
+                            <p><span className='font-semibold text-[16px]'>Room: {rooms}</span></p>
+                            <p><span className='font-semibold text-[16px]'>Bathroom: {bathrooms}</span></p>
                         </div>
                     </div> 
                     

@@ -22,7 +22,7 @@ const Search = () => {
             <div className='bg-white py-4 '>
                 <div className='flex justify-center items-center gap-3 py-4'>
                     <MapPinIcon className="h-6 w-6 text-primary " />
-                    <h1 className='font-semibold text-2xl '>All Location in Sylhet</h1>
+                    <h1 className='font-bold text-2xl '>All Location in Sylhet</h1>
                 </div>
 
 
@@ -97,7 +97,12 @@ const Search = () => {
                 </div>
 
 
-                <div className='md:p-12 p-4'>
+                <div className='text-[18px] ml-14 mt-7 relative lg:top-4 font-bold'>{searchAreas.length} results found</div>
+                <div>
+                    <span  className='px-4 py-1 text-[18px] relative text-white top-12  lg:top-16 lg:ml-12 ml-14 bg-[#FFA75A] 
+                    rounded-t-lg font-semibold'>Top ad</span>
+                </div>
+                <div className='md:p-12 p-4 '>
                     {
                         searchAreas.map(searchArea => <AreaDetails
                             key={searchArea.id}
