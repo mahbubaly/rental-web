@@ -5,7 +5,7 @@ import Area from './Area';
 const Section_2 = ({ popularArea }) => {
 
     return (
-        <div className='p-12 bg-white'>
+        <div className='rounded bg-white p-[48px] '>
             <div className='flex justify-between gap-4  my-5'>
                 <h1 className='font-bold w-full lg:w-auto  text-3xl 2xl:text-5xl text-primary hover:text-primary hover:underline hover:translate-x-2 transition duration-500 '>Popular area</h1>
 
@@ -13,7 +13,7 @@ const Section_2 = ({ popularArea }) => {
             </div>
 
 
-            <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2  text-center'>
+            <div className='grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 mt-9  text-center'>
                 {
                     popularArea.map(area => <Area
                         key={area.id}
