@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const AreaDetails = ({ searchArea }) => {
+    console.log(searchArea);
     
     const { id, title, space_feet, bathrooms, location, rent, rooms,image } = searchArea;
     return (

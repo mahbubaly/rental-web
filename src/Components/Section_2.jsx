@@ -7,9 +7,9 @@ const Section_2 = ({ popularArea }) => {
     return (
         <div className='rounded bg-white p-[48px] '>
             <div className='flex justify-between gap-4  my-5'>
-                <h1 className='font-bold w-full lg:w-auto  text-3xl 2xl:text-5xl text-primary hover:text-primary hover:underline hover:translate-x-2 transition duration-500 '>Popular area</h1>
+                <h1 className='font-bold w-full lg:w-auto text-[20px] text-primary hover:text-primary hover:underline hover:translate-x-2 transition duration-500 '>Popular area</h1>
 
-                <Link to="/search" className='text-primary w-full lg:w-auto lg:text-right   hover:text-primary hover:underline hover:-translate-x-2 transition duration-500 font-semibold lg:text-3xl 2xl:text-4xl  text-2xl mr-4'> See all area</Link>
+                <Link to="/search" className='text-primary w-full lg:w-auto lg:text-right   hover:text-primary hover:underline hover:-translate-x-2 transition duration-500 font-semibold  text-[15px] mr-4'> See all area</Link>
             </div>
 
 
