@@ -8,7 +8,9 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sylhet%2C_by_Murshed.jpg/1920px-Sylhet%2C_by_Murshed.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sylhet%2C_by_Murshed.jpg/1920px-Sylhet%2C_by_Murshed.jpg",
+    "post_Data": "2 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 2,
@@ -19,7 +21,9 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/City_point%2Csylhet.jpg/1280px-City_point%2Csylhet.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/City_point%2Csylhet.jpg/1280px-City_point%2Csylhet.jpg",
+    "post_Data": "5 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 3,
@@ -30,7 +34,9 @@
     "bathrooms": 1,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sylhet_Railway.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sylhet_Railway.jpg",
+    "post_Data": "1 week ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 4,
@@ -41,7 +47,9 @@
     "bathrooms": 2,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sylhet%2C_by_Murshed.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sylhet%2C_by_Murshed.jpg",
+    "post_Data": "2  month ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 5,
@@ -52,7 +60,9 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg",
+    "post_Data": "6 months ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 6,
@@ -63,7 +73,9 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sylhet_International_Cricket_Stadium_in_2021.02.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sylhet_International_Cricket_Stadium_in_2021.02.jpg",
+    "post_Data": "5 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 7,
@@ -74,7 +86,9 @@
     "bathrooms": 3,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg",
+    "post_Data": "10 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 8,
@@ -85,7 +99,9 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg",
+    "post_Data": "3 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 9,
@@ -96,7 +112,9 @@
     "bathrooms": 1,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg",
+    "post_Data": "8 days ago",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   },
   {
     "id": 10,
@@ -107,6 +125,8 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg",
+    "post_Data": "Today",
+    "description": "Classifieds are usually the first place you think of when you are getting ready to make a purchase. Whether you want to purchase a vehicle, bed, or pet, the classified section of your local newspaper can be one of the best resources available. With the emergence of the web however, many sites are being developed to host free classifieds. More and more people are using the web daily; making these classified sites some of the most popular sites around."
   }
 ]
