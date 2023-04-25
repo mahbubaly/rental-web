@@ -8,7 +8,7 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sylhet%2C_by_Murshed.jpg/1920px-Sylhet%2C_by_Murshed.jpg"
   },
   {
     "id": 2,
@@ -19,10 +19,10 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/City_point%2Csylhet.jpg/1280px-City_point%2Csylhet.jpg"
   },
   {
-    "id":3,
+    "id": 3,
     "location": "Zindabazar, Sylhet",
     "title": "Exclusive flat in prime location!",
     "space_feet": 900,
@@ -30,7 +30,7 @@
     "bathrooms": 1,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sylhet_Railway.jpg"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "bathrooms": 2,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sylhet%2C_by_Murshed.jpg"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sylhet_International_Cricket_Stadium_in_2021.02.jpg"
   },
   {
     "id": 7,
@@ -74,7 +74,7 @@
     "bathrooms": 3,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
   },
   {
     "id": 8,
@@ -85,7 +85,7 @@
     "bathrooms": 2,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
   },
   {
     "id": 9,
@@ -96,7 +96,7 @@
     "bathrooms": 1,
     "private_bathroom": true,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
   },
   {
     "id": 10,
@@ -107,6 +107,6 @@
     "bathrooms": 1,
     "private_bathroom": false,
     "rent": "20,000/month",
-    "image": "https://scontent.fdac137-1.fna.fbcdn.net/v/t39.30808-6/260618950_4584894118257128_789023425858264953_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=FAEEUo3eA5UAX8z5fMN&_nc_ht=scontent.fdac137-1.fna&oh=00_AfChHD1nqFGjMniBPaEpZp9jF4sykSL5FMjFhx4j7zSqpg&oe=64468A54"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/05122009_Hazrat_Shahjalal_Majar_Exit_Sylhet_photo1_Ranadipam_Basu.jpg"
   }
 ]

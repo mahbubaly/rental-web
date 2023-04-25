@@ -9,7 +9,7 @@ const Main = () => {
     return (
         <div className='container mx-auto'>
             <Header />
-            <div className='mx-auto flex justify-center items-center bg-white'>{
+            <div className='mx-auto flex justify-center  items-center bg-white'>{
                 navigation.state === "loading" && "loading..."
             } </div>
             <Outlet />
