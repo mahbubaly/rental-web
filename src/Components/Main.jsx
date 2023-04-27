@@ -7,7 +7,7 @@ const Main = () => {
 
     const navigation = useNavigation();
     return (
-        <div className='container mx-auto'>
+        <div className=''>
             <Header />
             <div className='mx-auto flex justify-center  items-center bg-white'>{
                 navigation.state === "loading" && "loading..."

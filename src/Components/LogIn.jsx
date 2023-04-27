@@ -16,6 +16,7 @@ const LogIn = () => {
 
         const password = form.password.value;
         setEmail(email);
+        console.log(email , password);
     }
 
 

@@ -19,7 +19,7 @@ const Search = () => {
 
     return (
         < >
-            <div className=' py-4 '>
+            <div className=' py-4 container mx-auto '>
                 <div className='flex justify-center items-center gap-3 py-4'>
                     <MapPinIcon className="h-6 w-6 text-primary " />
                     <h1 className='font-bold text-2xl '>All Location in Sylhet</h1>

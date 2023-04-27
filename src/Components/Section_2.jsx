@@ -5,7 +5,7 @@ import Area from './Area';
 const Section_2 = ({ popularArea }) => {
 
     return (
-        <div className='rounded bg-white p-[48px] '>
+        <div className='rounded container mx-auto bg-white p-[48px] '>
             <div className='flex justify-between gap-4  my-5'>
                 <h1 className='font-bold w-full lg:w-auto text-[20px] text-primary hover:text-primary hover:underline hover:translate-x-2 transition duration-500 '>Popular area</h1>
 
