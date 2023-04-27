@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { HomeIcon } from '@heroicons/react/24/solid'
 import bed from '../Images/bed-icon.png'
+import duplex from '../Images/Duplex.png'
 import Apartment from '../Images/Appartment.png'
 import house from '../Images/house-icon.png'
 import shop from '../Images/shop-icon.png'
@@ -56,7 +57,7 @@ const Section = () => {
                         </div>
 
                     </div>
-                    <div className='grid lg:grid-cols-3 grid-cols-2  w-full'>
+                    <div className='grid lg:grid-cols-3 grid-cols-2 gap-4  w-full'>
 
                         <div className=' p-[26px] rounded gap-4 md:gap-0 shadow-lg mx-auto flex flex-col hover:shadow-xl ease-in-out duration-700 hover:text-white font-semibold hover:bg-primary justify-center items-center'>
 
@@ -75,8 +76,8 @@ const Section = () => {
                         </div>
                         <div className=' p-[26px] rounded gap-4 md:gap-0 shadow-lg mx-auto flex flex-col hover:shadow-xl ease-in-out duration-700 hover:text-white font-semibold hover:bg-primary justify-center items-center'>
 
-                            <img className='h-[33px]  w-[33px] ' src={house} alt="" />
-                            <h1>House</h1>
+                            <img className='h-[33px]  w-[33px] ' src={duplex} alt="" />
+                            <h1>Duplexs</h1>
                         </div>
                         <div className='p-[26px] rounded shadow-lg mx-auto flex flex-col hover:shadow-xl ease-in-out duration-700 hover:text-white font-semibold hover:bg-primary justify-center items-center'>
 

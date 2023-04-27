@@ -15,7 +15,7 @@ const SignUp = () => {
     }
     return (
         <>
-            <div className="  flex justify-center items-center  bg-white">
+            <div className="  flex justify-center items-center   bg-white">
                 <div className="hero-content flex-col lg:w-[40%]">
                     <div className="text-center scroll-container ">
                         <h1 className="text-5xl font-bold  scroll-content  text-primary my-7">Welcome again!!</h1>
